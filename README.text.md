@@ -1,6 +1,6 @@
 # Algorithms in Javascript
 
-You need to already understand/remember all these:
+## You need to already understand/remember all these:
 
 * [Logarithm and Exponentiation](https://en.wikipedia.org/wiki/Logarithm):
 
