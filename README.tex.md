@@ -2,105 +2,105 @@
 
 ## You need to already understand/remember all these:
 
-* [Logarithm and Exponentiation](https://en.wikipedia.org/wiki/Logarithm):
+  * [Logarithm and Exponentiation](https://en.wikipedia.org/wiki/Logarithm):
 
-  $
-  log_b^{(x)} = y \\
-  b^y = x
-  $
+    $
+    log_b^{(x)} = y \\
+    b^y = x
+    $
 
-  log<sub>2</sub><sup>(1024)</sup> = 10
+    log<sub>2</sub><sup>(1024)</sup> = 10
 
-  2<sup>10</sup> = 1024
+    2<sup>10</sup> = 1024
 
-* [ Arithmetic progression ](https://en.wikipedia.org/wiki/Arithmetic_progression):
-
-  $
-  \Large
-  \frac{n(a_1 + a_n)}{2}
-  $
-
-  $
-  1+2+3+4+…+10 = \frac{10*(1 + 10)}{2} = 55
-  $
-
-* [Geometric progression](https://en.wikipedia.org/wiki/Geometric_progression):
-
-  $
-  a, ar, ar^2, ar^3, ar^4,..., ar^n
-  $
-
-  * To find the ratio:
+  * [ Arithmetic progression ](https://en.wikipedia.org/wiki/Arithmetic_progression):
 
     $
     \Large
-    \frac{a_2}{a_1}
+    \frac{n(a_1 + a_n)}{2}
     $
 
     $
-    1, 2, 4, 8, ..., 1024
+    1+2+3+4+…+10 = \frac{10*(1 + 10)}{2} = 55
     $
 
-    $
-    \frac{2}{1} = 2
-    $
-
-  * To find the n<sup>th</sup> term is:
+  * [Geometric progression](https://en.wikipedia.org/wiki/Geometric_progression):
 
     $
-    a_n = ar^{n-1}
+    a, ar, ar^2, ar^3, ar^4,..., ar^n
     $
 
-  * To find the number of terms:
+    * To find the ratio:
 
-    $
-    \large
-    a_n = \frac{log(\frac{a_n}{a_1})}{log(r)}+1
-    $
+      $
+      \Large
+      \frac{a_2}{a_1}
+      $
 
-    $
-    1, 2, 4, 8, ..., 1024
-    $
+      $
+      1, 2, 4, 8, ..., 1024
+      $
 
-    $
-    a_{n} = \frac{log(1024)}{log(2)} + 1 = 11
-    $
+      $
+      \frac{2}{1} = 2
+      $
 
-  * To find the geometric series (sum of the terms):
+    * To find the n<sup>th</sup> term is:
 
-    $
-    \displaystyle\sum_{k=1}^n ar^{k-1} = \frac{a(1-r^n)}{1-r}
-    $
+      $
+      a_n = ar^{n-1}
+      $
 
-    $
-    1, 2, 4, 8, ..., 1024
-    $
+    * To find the number of terms:
 
-    $
-    \frac{1(1-2^{11})}{1-2} = 2047
-    $
+      $
+      \large
+      a_n = \frac{log(\frac{a_n}{a_1})}{log(r)}+1
+      $
 
-* [Linear function](https://en.wikipedia.org/wiki/Linear_function)
+      $
+      1, 2, 4, 8, ..., 1024
+      $
 
-    $
-    f(x) = ax + b
-    $
+      $
+      a_{n} = \frac{log(1024)}{log(2)} + 1 = 11
+      $
 
-* [Quadratic function](https://en.wikipedia.org/wiki/Quadratic_function)
+    * To find the geometric series (sum of the terms):
 
-    $
-    f(x) = ax^2 + bx
-    $
+      $
+      \displaystyle\sum_{k=1}^n ar^{k-1} = \frac{a(1-r^n)}{1-r}
+      $
 
-* [Cubic function](https://en.wikipedia.org/wiki/Cubic_function)
+      $
+      1, 2, 4, 8, ..., 1024
+      $
 
-    $
-    f(x) = ax^3 + bx
-    $
+      $
+      \frac{1(1-2^{11})}{1-2} = 2047
+      $
 
-* [Ceiling, Floor, and Absolute function](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math):
+  * [Linear function](https://en.wikipedia.org/wiki/Linear_function)
 
-    `ceil(3.1) = 4, floor(3.1) = 3, abs(-7) = 7`
+      $
+      f(x) = ax + b
+      $
+
+  * [Quadratic function](https://en.wikipedia.org/wiki/Quadratic_function)
+
+      $
+      f(x) = ax^2 + bx
+      $
+
+  * [Cubic function](https://en.wikipedia.org/wiki/Cubic_function)
+
+      $
+      f(x) = ax^3 + bx
+      $
+
+  * [Ceiling, Floor, and Absolute function](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math):
+
+      `ceil(3.1) = 4, floor(3.1) = 3, abs(-7) = 7`
 
 ## Analysis
 Analysis of Algorithm is a process to evaluate rigorously the resources (time and space) needed by an algorithm and represent the result of the evaluation with a (simple) formula.
