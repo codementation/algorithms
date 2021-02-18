@@ -126,6 +126,8 @@ We write that algorithm A has time complexity of O(f(n)), where f(n) is the grow
 Mathematically, an algorithm A is of O(f(n)) if there exist a constant k and a positive integer n0 such that algorithm A requires no more than k*f(n) time units to solve a problem of size n ≥ n0, i.e., when the problem size is larger than n0 algorithm A is (always) bounded from above by this simple formula k*f(n).
 
 
+## Sorting Algorithms
+
 ### Bubble Sort
 Given an array of N elements, Bubble Sort will:
 
