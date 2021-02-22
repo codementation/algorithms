@@ -155,3 +155,5 @@ But the inner loop runs get shorter and shorter:
 Thus, the total number of iterations = (N−1)+(N−2)+...+1+0 = N*(N−1)/2 (derivation).
 
 Total time = $c * n * (n−1)/2 = O(n^2)$
+
+
