@@ -26,7 +26,7 @@
 //   O(n)   best (when array is already sorder)
 //
 // Space Complexity:
-// O(1)
+// O(n)
 //
 // Implementation
 //
@@ -38,8 +38,10 @@
 // Repeat for every element to the end of the array
 
 const insertionSort = (arr = [], index, order = 'ascending') => {
+    // assign the last elements index
     const end = arr.length - 1;
 
+    // Object to hold respective omparison functions
     const direction = {
         ascending: (x, y) => {
             return x < y;
@@ -49,13 +51,18 @@ const insertionSort = (arr = [], index, order = 'ascending') => {
         },
     };
 
+    // We will be comparing the current index
+    // with the previous index to start
     let currInd = index;
     let prevInd = index - 1;
 
     if (index <= end) {
+        // Compare current elements to all previous elements to the beginning
         while (prevInd >= 0 && direction[order](arr[currInd], arr[prevInd])) {
+            // Use desrtucturing assignment to swap according to order
             [arr[prevInd], arr[currInd]] = [arr[currInd], arr[prevInd]];
             prevInd--;
+            // rinse and repeat
             insertionSort(arr, prevInd, order);
         }
 
