@@ -41,7 +41,7 @@ const insertionSort = (arr = [], index, order = 'ascending') => {
     // assign the last elements index
     const end = arr.length - 1;
 
-    // Object to hold respective omparison functions
+    // Object to hold respective comparison functions
     const direction = {
         ascending: (x, y) => {
             return x < y;
